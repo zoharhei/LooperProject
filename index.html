@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- assure scaling over different devices-->
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+    <title>Zohar's Looper</title>
+    <!--link to css file-->
+    <link rel = "stylesheet" href = "style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,500;1,300&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <button class="audioButton btm1" id="electric_guitar_coutry">
+            <h1>Electric Guitar Country</h1>
+        </button>
+        <button class="audioButton btm2" id="future_funk_beats">
+            <h1>Future Funk Beats</h1>
+        </button>
+        <button class="audioButton btm3" id="groove_tanggu">
+            <h1>Groove Tanggu</h1>
+        </button>  
+        <button class="audioButton btm4" id="heavy_funk_groove">
+            <h1>Heavy Funk Groove</h1>
+        </button>
+        <button class="audioButton btm5" id="maze_politics">
+            <h1>Maze Politics</h1>
+        </button> 
+        <button class="audioButton btm6" id="pas_groove">
+            <h1>PAS Groove</h1>
+        </button>
+        <button class="audioButton btm7" id="silent_start_organ_myth">
+            <h1>Silent Start Organ Myth</h1>
+        </button> 
+        <button class="audioButton btm8" id="stompy_slosh">
+            <h1>Stompy Slosh</h1>
+        </button>
+        <button class="audioButton btm9" id="stutter_breakbeats">
+            <h1>Stutter Breakbeats</h1>
+        </button>
+        <button class="controlButton" id="play" onclick="startGlobalPlaying();"><h1>&#9654; PLAY</h1></button>
+        <h1></h1>
+        <button class="controlButton" onclick="stopPlaying();"><h1>&#9632; STOP</h1></button>
+    </div>
+</body>
+</html>
