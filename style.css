@@ -24,73 +24,6 @@
 
   }
 
-  /*FIRST ATTEMPT  https://www.youtube.com/watch?v=68O6eOGAGqA*/
-
-/*
-  .container {
-    display:grid;
-    height: 100vh;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-areas: 
-      "audio1 audio2 audio3"
-      "audio4 audio5 audio6"
-      "audio7 audio8 audio9"
-      "globalButtons globalButtons globalButtons";
-  }
-  .btn1{
-    grid-area:audio1;
-  }
-  .btn2{
-    grid-area:audio2;
-  }
-  .btn3{
-    grid-area:audio3;
-  }
-  .btn4{
-    grid-area:audio4;
-  }
-  .btn5{
-    grid-area:audio5;
-  }
-  .btn6{
-    grid-area:audio6;
-  }
-  .btn7{
-    grid-area:audio7;
-  }
-  .btn8{
-    grid-area:audio8;
-  }  
-  .btn9{
-    grid-area:audio9;
-  }
-  #globalButtons{
-    grid-area:globalButtons;
-  }
-*/
-  /*END OF FIRST ATTEMPT  https://www.youtube.com/watch?v=68O6eOGAGqA*/
-
-
-  /* OLD
-  .container {
-    height: 50vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    overflow: hidden;
-  }
-*/
-
-
   .audioButton {
     margin: 10px;
     background-color: transparent;
@@ -102,11 +35,7 @@
     position: relative;
     z-index: 1;
   }
-  /* .audioButton:visited {
-    background-color:#bbb;  
-    pointer-events: none;   
-  
-  } */
+
   .audioButton.playing{
     background-color:rgb(88, 88, 88);    
   }
